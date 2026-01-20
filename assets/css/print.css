@@ -1,0 +1,76 @@
+/* Styling Khusus Halaman Cetak */
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: white;
+    color: black;
+}
+
+/* Bagian Kop Surat */
+.header-laporan {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid black; /* Garis lebih tebal agar tegas */
+    padding-bottom: 20px;
+}
+
+.header-laporan h2 {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.header-laporan h3 {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header-laporan p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Bagian Tabel (Override Bootstrap sedikit agar garis hitam pekat) */
+.table-bordered {
+    border-color: black !important;
+}
+
+.table-bordered th, 
+.table-bordered td {
+    border-color: black !important;
+    vertical-align: middle;
+}
+
+/* Bagian Tanda Tangan */
+.tanda-tangan {
+    float: right;
+    margin-top: 50px;
+    text-align: center;
+    width: 250px;
+}
+
+.tanda-tangan p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Konfigurasi Khusus Printer */
+@media print {
+    /* Sembunyikan elemen dengan class no-print saat dicetak */
+    .no-print {
+        display: none !important;
+    }
+
+    /* Memaksa browser mencetak background (opsional) */
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    /* Hilangkan margin default browser agar pas di kertas */
+    @page {
+        margin: 2cm;
+    }
+}
