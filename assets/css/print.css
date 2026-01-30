@@ -32,7 +32,7 @@ body {
     font-size: 14px;
 }
 
-/* Bagian Tabel (Override Bootstrap sedikit agar garis hitam pekat) */
+
 .table-bordered {
     border-color: black !important;
 }
@@ -43,7 +43,7 @@ body {
     vertical-align: middle;
 }
 
-/* Bagian Tanda Tangan */
+
 .tanda-tangan {
     float: right;
     margin-top: 50px;

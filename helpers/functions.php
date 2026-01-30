@@ -1,8 +1,7 @@
 <?php
-// FILE: helpers/functions.php
 
 function base_url($path = "") {
-    // Sesuaikan dengan nama folder project kamu di htdocs
+    
     return "/pengaduan-app/" . $path;
 }
 

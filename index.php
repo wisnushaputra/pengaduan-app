@@ -143,8 +143,6 @@ if (!isset($_SESSION['user_id'])) {
     </div>
 
     <script>
-        // Kita "oper" variabel PHP ke variabel JavaScript Global
-        // agar bisa dibaca oleh file assets/js/script.js
         const globalUserRole = "<?= $_SESSION['role'] ?>";
     </script>
     

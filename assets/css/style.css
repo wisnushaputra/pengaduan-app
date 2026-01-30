@@ -1,11 +1,11 @@
-/* assets/css/style.css */
+
 
 body {
-    background-color: #f8f9fa; /* Abu-abu muda lembut */
+    background-color: #f8f9fa; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Custom Card Styling */
+
 .card {
     border: none;
     border-radius: 12px;
@@ -18,7 +18,7 @@ body {
     padding: 15px;
 }
 
-/* Navbar Styling */
+
 .navbar {
     box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
@@ -28,7 +28,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Table Styling */
+
 .table th {
     background-color: #e9ecef;
     text-align: center;
@@ -38,7 +38,7 @@ body {
     vertical-align: middle;
 }
 
-/* Badge Status Styling */
+
 .badge-status {
     font-size: 0.9em;
     padding: 8px 12px;
@@ -46,20 +46,20 @@ body {
 }
 
 
-/* Styling Khusus Statistik Dashboard */
+
 .card-stats {
     border: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: default;
 }
 
-/* Efek saat mouse diarahkan ke kartu */
+
 .card-stats:hover {
-    transform: translateY(-5px); /* Naik sedikit ke atas */
+    transform: translateY(-5px); 
     box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
 }
 
-/* Membuat ikon emoji di kanan kartu lebih estetik */
+
 .card-stats .fs-1 {
     line-height: 1;
 }

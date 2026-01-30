@@ -28,7 +28,6 @@ elseif ($act == 'logout') {
 
 elseif ($act == 'ganti_password') {
     $id = $_SESSION['user_id'];
-    // ... Logika validasi password lama & baru ...
-    // ... Panggil update_password($conn, $id, $pass_baru) ...
+
 }
 ?>

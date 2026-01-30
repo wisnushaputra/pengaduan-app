@@ -1,8 +1,7 @@
 <?php
 header('Content-Type: application/json');
 include '../config/database.php';
-include '../models/LaporanModel.php'; // Pakai Model
-
+include '../models/LaporanModel.php'; 
 $result = get_all_laporan($conn);
 
 $data = [];
