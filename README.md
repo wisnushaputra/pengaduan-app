@@ -12,9 +12,9 @@ Sistem ini membagi hak akses menjadi dua aktor utama, yaitu Masyarakat (User) da
 1. Login: Masuk ke sistem dengan hak akses penuh.
 2. Dashboard Statistik: Melihat widget statistik jumlah laporan (Total, Pending, Proses, Selesai) secara real-time.
 3. Manajemen Laporan (CRUD - Read & Update):
-⋅⋅⋅⋅* Melihat seluruh laporan masuk dari semua warga.
-⋅⋅⋅⋅* Memverifikasi laporan dengan mengubah status (Verifikasi & Penugasan).
-⋅⋅⋅⋅* Melihat bukti foto laporan.
+- Melihat seluruh laporan masuk dari semua warga.
+- Memverifikasi laporan dengan mengubah status (Verifikasi & Penugasan).
+- Melihat bukti foto laporan.
 4. Pencarian & Filter: Mencari laporan berdasarkan kata kunci atau memfilter berdasarkan status tanpa reload halaman (menggunakan JavaScript).
 5. Cetak Laporan: Mencetak rekapitulasi laporan ke dalam format siap cetak (Print/PDF).
 6. Manajemen User (CRUD Lengkap): Menambah, melihat, dan menghapus akun user (baik admin baru maupun warga).
