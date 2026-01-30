@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "038ae719-32fb-4c5f-b03d-9f10bee48f8c",
+		"name": "Pengaduan Masyarakat API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51963393",
+		"_collection_link": "https://wisnushaputra636-5944325.postman.co/workspace/wisnu-sukmana-putra's-Workspace~3fa8b961-c7da-4a06-885f-da57d01c0d27/collection/51963393-038ae719-32fb-4c5f-b03d-9f10bee48f8c?action=share&source=collection_link&creator=51963393"
+	},
+	"item": [
+		{
+			"name": "Get All Laporan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://aduanmasyarakat.online/api/get_laporan.php",
+					"protocol": "https",
+					"host": [
+						"aduanmasyarakat",
+						"online"
+					],
+					"path": [
+						"api",
+						"get_laporan.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/pengaduan-app/actions/auth.php?act=login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"pengaduan-app",
+						"actions",
+						"auth.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "login"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tambah Laporan",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
